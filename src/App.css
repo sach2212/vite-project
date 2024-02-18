@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    /* font-family: "Josefin Slab", serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif; */
+    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #f9f9f9;
+
+}
+
+.whatsappapp{
+    display: flex;
+    /* position: fixed; */
+    bottom:  0rem;
+    z-index: 1000000000;
+    display: flex;
+     flex-direction: column;
+     position: fixed;
+
+
+}.whatsappapp img{
+     
+ margin: 1rem .8rem;
+
+width: 3.5rem;
+}
+
+
+@media screen and  (max-width:970px) {
+    .whatsappapp{
+        display: none;
+    }
+
+}

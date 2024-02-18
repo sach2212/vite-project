@@ -1,0 +1,243 @@
+
+body{
+  overflow-x: hidden;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(255, 255, 255);
+  background-color: white;
+  padding: 2.4rem;
+  border-radius: 50%;
+
+  background: transparent;
+  background: transparent;
+  border: 1px solid white;
+  
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem;
+}
+
+.hero {
+  position: relative;
+}
+.SwiperSlide {
+  width: 100vw;
+  height: 105vh;
+  position: relative;
+  
+}
+
+.SwiperSlide .myimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover !important;
+  object-position: center !important;
+  /* filter: blur(5px);
+  -webkit-filter: blur(3.5px); */
+
+}
+
+.SwiperSlide .content {
+  position: absolute;
+  background-color: rgb(235, 241, 246, 0.2);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.39);
+  justify-content: center;
+  /* cursor:grab; */
+ z-index: 10;
+ padding: 0 1.5rem;
+
+ text-align: center;
+}
+
+.SwiperSlide .content h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+  /* text-shadow: 1px 1px 10px #000000; */
+
+}
+.SwiperSlide .content P {
+  font-size: 2.2rem;
+  letter-spacing: .1rem;
+  margin-top: 2rem;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  
+}
+
+.bookingcont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height: 4rem;
+   text-align: left;
+}
+.bookingcont h2{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 0 1.5rem;
+    
+}
+.booking {
+  background-color: rgb(252, 252, 252);
+
+  position: absolute;
+
+  bottom: -30px;
+  z-index: 10;
+  padding: 2.5rem;
+    margin:  0 3rem ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ border-radius: 2.2rem;
+ text-align: left;
+ 
+}
+
+.booking input,
+select {
+  width: 22rem;
+  height: 5rem;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: .5rem;
+  font-size: 1.2rem;
+  border: 1px solid rgb(80, 80, 80);
+
+}
+
+.booking  label{
+text-align: left;
+width: 100%;
+font-size: 1.3rem;
+ color: #000000;
+ font-family: "Poppins", sans-serif;
+ /* font-weight: bolder; */
+ letter-spacing: .8px; 
+
+}
+
+.booking .form  {
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+}.booking .form .labelblock {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.booking .buttons{
+ 
+  margin-top: 1rem;
+} 
+
+ 
+
+@media screen and  (max-width:970px) {
+    
+    .bookingcont{
+        /* width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; */
+        height: 25rem;
+        text-align: left;
+    }
+
+    
+    .booking input,
+select {
+  width: 40rem;
+  
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+
+ 
+
+}
+
+@media screen and  (max-width:640px) {
+
+  .SwiperSlide .content h1 {
+    font-size: 3.2rem;
+ 
+      text-align: center;
+    
+  }
+  .SwiperSlide .content P {
+    font-size: 1.6rem;
+    text-align: center;
+
+     
+  }
+}
+
+@media screen and  (max-width:540px) {
+    
+
+    .booking input,
+select {
+  width: 30rem;
+  
+}
+.booking .buttons{
+  margin-top: 1.5rem;
+} 
+
+
+
+ 
+
+
+.SwiperSlide .content h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bolder;
+text-align: center;
+  
+  
+}
+.SwiperSlide .content P {
+  font-size: 1.5rem;
+  letter-spacing: normal;
+   
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+ 
+  border: 1px solid white;
+  top: var(--swiper-navigation-top-offset, 64%);
+
+  
+}
+ 
+.booking{
+  bottom: -78px;
+
+}
+
+}
+  

@@ -1,0 +1,123 @@
+.stay {
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+         rgba(30, 30, 30, 0.6)),url("/images/staybg.jpg");
+  background-position: center;
+  background-size: cover;
+  /* margin: 5rem 0; */
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+ text-align: center;
+
+  padding-top: 3rem ;
+}
+ 
+.stay h2 {
+  color: white;
+  font-size: 3.5rem;
+ 
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  margin-top: 3rem;
+}
+ 
+
+ .stayimage .swiper{
+ height: 60vh;
+ width: 40%;
+display: flex;
+background-color: antiquewhite;
+
+}
+.stayimage .swiper .img{
+  background-color: rgb(146, 98, 36);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* object-position: center; */
+
+
+}
+
+.stay .buttons{
+  margin:  4.8rem 0;
+}
+ 
+ 
+
+.stay .swiper {
+  width:  70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.stay .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.stay .overlay{
+  background-color: rgba(0, 0, 0, 0.49);
+
+}
+ 
+.swiper-slide img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+.SwiperSlide_tour 
+
+{margin: 0 2rem;}
+
+
+  .SwiperSlide_tour .h6{
+  color: aliceblue;
+  font-size: 21px;
+ position: absolute;
+ text-align: center;
+ 
+  z-index: 1000;
+ top: 50%;
+ 
+   width: 100%;
+ cursor: pointer;
+ } 
+ 
+ .SwiperSlide_tour .h6 span{
+  color: rgb(200, 200, 200);
+  font-size: 15px;
+ 
+
+ }
+
+ 
+
+
+
+@media screen  and (max-width:500px) {
+
+  .stay h2 {
+ text-align: center;
+    font-size: 4rem;
+    margin-top: 4rem;
+
+  }
+
+
+  .stay {
+    height: 120vh;
+  } 
+}
